@@ -26,15 +26,15 @@ const PORT = process.env.PORT;
 if (!PORT) {
   logger.error(`没有找到指定 PORT`).then(() => {
     process.exit(1);
-  })
+  });
 }
 
 const server = app.listen(PORT, () => {
   logger.info(`服务器启动成功，监听端口: ${PORT}`);
 });
 
-server.on('error', async (err) => {
-  if (err.code === 'EADDRINUSE') {
+server.on("error", async (err) => {
+  if (err.code === "EADDRINUSE") {
     await logger.error(`端口 ${PORT} 已经被占用`);
   } else {
     await logger.error(`服务器启动失败:  ${err.message}`);
