@@ -4,7 +4,7 @@ const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
 const app = express();
 app.use(express.json());
-
+const apiRouter = require('./analyze/analyze');
 
 // 初始化日志
 logger.init().then(() => {
@@ -17,6 +17,11 @@ app.use((req, res, next) => {
   logger.access(data);
   next();
 });
+
+
+// 挂载所有 API 路由
+app.use('/api', apiRouter);
+
 
 const PORT = process.env.PORT || 13100;
 
