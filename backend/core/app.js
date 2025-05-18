@@ -1,14 +1,14 @@
-const express = require('express');
-const logger = require('./logger/logger');
-const path = require('path');
-require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
+const express = require("express");
+const logger = require("./logger/logger");
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, "../../../.env") });
 const app = express();
 app.use(express.json());
-const apiRouter = require('./api/api');
+const apiRouter = require("./api/api");
 
 // 初始化日志
 logger.init().then(() => {
-  console.log('Logger initialized');
+  console.log("Logger initialized");
 });
 
 // 记录所有请求
@@ -18,12 +18,15 @@ app.use((req, res, next) => {
   next();
 });
 
-
 // 挂载所有 API 路由
-app.use('/api', apiRouter);
+app.use("/api", apiRouter);
 
+const PORT = process.env.PORT;
 
-const PORT = process.env.PORT || 13100;
+if (!PORT) {
+  logger.info(`没有找到指定 PORT`);
+  process.exit(1);
+}
 
 app.listen(PORT, () => {
   logger.info(`Server running on port ${PORT}`);
