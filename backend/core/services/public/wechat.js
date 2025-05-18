@@ -18,7 +18,7 @@ class Wechat {
     // 创建自定义 axios 实例
     this.wxApiClient = axios.create({
       baseURL: "https://api.weixin.qq.com",
-      timeout: 5000, // 5秒超时
+      timeout: 5000, 
       headers: {
         "Content-Type": "application/json",
       },
@@ -80,7 +80,7 @@ class Wechat {
     }
   }
 
-  
+
 }
 
 module.exports = Wechat;

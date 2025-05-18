@@ -1,8 +1,10 @@
 const express = require('express');
-const path = require('path');
-require('dotenv').config({ path: path.resolve(__dirname, '../../../../.env') });
-
+const preferenceRouter = require('./preference');
+const logger = require('../../logger/logger');
 const analyzeRouter = express.Router();
+
+
+analyzeRouter.use('/preference', preferenceRouter);
 
 
 analyzeRouter.use((req, res) => {
