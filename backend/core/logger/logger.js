@@ -36,7 +36,7 @@ class Logger {
 
   // 记录错误日志
   async error(error) {
-    const message = formatLogEntry("error", error.stack || error.message);
+    const message = formatLogEntry("error", error.stack || error.message || error);
     await this.writeLog(this.errorLogPath, message);
   }
 
