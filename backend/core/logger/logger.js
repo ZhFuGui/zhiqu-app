@@ -4,7 +4,7 @@ const { formatLogEntry } = require("./formatters");
 
 class Logger {
   constructor() {
-    this.logDir = path.join(__dirname, "../../../../logs/");
+    this.logDir = path.join(__dirname, "../../../../database/zhiqu-app/logs");
     this.accessLogPath = path.join(this.logDir, "access.log");
     this.errorLogPath = path.join(this.logDir, "error.log");
     this.appLogPath = path.join(this.logDir, "app.log");
