@@ -1,0 +1,974 @@
+{
+    "WebView": {
+        "自学资源": [
+            {
+                "title": "Java 全栈知识体系",
+                "tag": "编程",
+                "preview": "这是一个专注于Java全栈知识体系的网站，它提供了丰富的Java相关内容，包括但不限于Java基础、源码、JVM、Spring框架、数据库原理、开发工具、源码阅读、读书笔记、开源项目等。网站旨在帮助用户构建自己的知识体系，提供系统性的学习资源，助力用户夯实基础，构建完整的全栈开发知识体系。此外，该网站还提供了关于全栈面试、方法论、产品、团队等方面的内容，以及与Java开发相关的DevOps实践。",
+                "url": "https://pdai.tech/",
+                "id": "c4385020-e52b-44f7-a834-c43acac0b61d",
+                "img": "https://avatars.githubusercontent.com/u/6094984?v=4"
+            },
+            {
+                "title": "CS DIY",
+                "tag": "编程",
+                "preview": "CSDIY Wiki 是一个计算机科学自学的资源平台，它提供了丰富的学习资料和指导，旨在帮助用户自学计算机科学。",
+                "url": "https://csdiy.wiki/",
+                "id": "a152fdf7-1479-4aba-810e-3090e9db4956",
+                "img": "https://csdiy.wiki/images/favicon.ico"
+            },
+            {
+                "title": "菜鸟教程",
+                "tag": "编程",
+                "preview": "菜鸟教程的Python基础教程是一个全面的学习资源，它涵盖了Python编程语言的各个方面，从简介到环境搭建，再到基础语法、数据类型、运算符、条件语句、循环语句等。教程还包括了函数、模块、文件I/O、异常处理、OS文件/目录方法、内置函数等内容。此外，还涉及了面向对象编程、正则表达式、CGI编程、数据库操作、网络编程、多线程、XML解析、GUI编程等高级主题。这个教程适合初学者从零开始学习Python编程，同时也为有一定基础的读者提供了深入学习的路径。",
+                "url": "https://www.runoob.com/",
+                "id": "b912c5ae-98bd-4594-ae60-d8dc8b26af16",
+                "img": "https://static.jyshare.com/images/favicon.ico"
+            },
+            {
+                "title": "人工智能中的编程基础：Python基础",
+                "tag": "AI",
+                "preview": "该项目是一个名为“聪明办法学Python”的Python入门教程的第二版，由Datawhale团队制作。这个教程旨在通过简明且系统的方式教授Python编程，特别强调了计算机科学与人工智能相关的内容，旨在制作一个“面向人工智能的Python专项教程”。",
+                "url": "https://github.com/datawhalechina/learn-python-the-smart-way-v2",
+                "id": "503ad2ef-fd87-4161-934d-05fafd797d82",
+                "img": "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png"
+            },
+            {
+                "title": "人工智能中的数据处理基础：NumPy基础",
+                "tag": "AI",
+                "preview": "该项目是一个名为“巨硬的NumPy”的GitHub项目，旨在提供NumPy库的教程和资源。",
+                "url": "https://github.com/datawhalechina/powerful-numpy",
+                "id": "773c0605-d503-4b3a-8c4b-e5210d9daa07",
+                "img": "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png"
+            },
+            {
+                "title": "人工智能中的数据处理基础：Pandas基础",
+                "tag": "AI",
+                "preview": "Joyful Pandas 是一个由 Datawhale China 开发和维护的 pandas 中文教程项目。该项目旨在提供全面、系统且易于理解的 pandas 教程，帮助用户更好地学习和掌握 pandas 数据分析库。",
+                "url": "https://github.com/datawhalechina/joyful-pandas",
+                "id": "0a0f70f9-ff8c-4101-b1a0-dbdedd40756e",
+                "img": "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png"
+            },
+            {
+                "title": "人工智能中的数据可视化基础：Matplotlib基础",
+                "tag": "AI",
+                "preview": "项目《Fantastic-Matplotlib》是由Datawhale数据可视化小组开发的一个开源项目。该项目旨在为用户提供一个系统性的Matplotlib中文教程，帮助用户深入理解和掌握Python数据可视化中常用的Matplotlib库。",
+                "url": "https://github.com/datawhalechina/fantastic-matplotlib",
+                "id": "7ad38e5f-99c2-49b8-99a8-55f1733e8396",
+                "img": "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png"
+            },
+            {
+                "title": "机器学习框架：scikit-learn",
+                "tag": "AI",
+                "preview": "该项目是《机器学习》（西瓜书）的代码实战教程，旨在通过结合数学公式与相关代码，帮助读者加深对公式的理解以及代码的熟练。",
+                "url": "https://github.com/datawhalechina/machine-learning-toy-code",
+                "id": "5943ef6c-18e7-4855-9f0e-b08df285b65d",
+                "img": "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png"
+            },
+            {
+                "title": "深度学习框架：PyTorch",
+                "tag": "AI",
+                "preview": "项目“深入浅出PyTorch”是一个旨在帮助用户从入门到熟练掌握PyTorch深度学习框架的教程。该项目由DataWhale团队开发，提供了一系列的教程和文档，旨在通过理论与实践相结合的方式，帮助用户深入理解PyTorch的基础知识、高级操作以及实际应用。",
+                "url": "https://github.com/datawhalechina/thorough-pytorch",
+                "id": "21bf81b5-2eeb-4ff5-a971-f302cb70a943",
+                "img": "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png"
+            },
+            {
+                "title": "NLP工具库: transformers",
+                "tag": "AI",
+                "preview": "该项目是一个基于GitHub的开源项目，旨在通过中文教程和示例代码，帮助初学者快速入门自然语言处理（NLP）领域，特别是使用Transformer模型",
+                "url": "https://github.com/datawhalechina/learn-nlp-with-transformers",
+                "id": "5ff6221d-76e5-4e61-bacb-908e585a9c84",
+                "img": ""
+            },
+            {
+                "title": "CV工具库：OpenMMLab",
+                "tag": "AI",
+                "preview": "该项目是一个专门为新手设计的OpenMMLab开源库教程项目。其主要目的是帮助用户快速入门、熟练使用OpenMMLab库，并能够自主进行实验和深入学习。",
+                "url": "https://github.com/datawhalechina/openmmlab-tutorial",
+                "id": "dba85be8-7330-4627-8a42-0461d7116149",
+                "img": ""
+            },
+            {
+                "title": "机器学习的基本概念",
+                "tag": "AI",
+                "preview": "《机器学习》（西瓜书）公式详解项目是一个开源项目，由Datawhale China发起。该项目旨在为周志华老师的《机器学习》一书中的公式提供详细的推导和解析。",
+                "url": "https://github.com/datawhalechina/pumpkin-book",
+                "id": "5f841104-0ac3-4012-9494-f06677400571",
+                "img": ""
+            },
+            {
+                "title": "机器学习的经典模型",
+                "tag": "AI",
+                "preview": "Pumpkin Book 是一个开源项目，旨在为周志华老师的《机器学习》（西瓜书）提供公式详解。该项目由 Datawhale 开源组织发起，旨在帮助读者更好地理解和掌握书中的公式。",
+                "url": "https://github.com/datawhalechina/pumpkin-book",
+                "id": "ee8e578d-b914-4b80-82d7-f37bf3b82732",
+                "img": ""
+            },
+            {
+                "title": "机器学习代码实践",
+                "tag": "AI",
+                "preview": "该项目是一个基于《机器学习》（西瓜书）的代码实战项目，旨在通过结合数学公式与相关代码，帮助读者加深对机器学习公式的理解以及代码的熟练度。",
+                "url": "https://github.com/datawhalechina/machine-learning-toy-code",
+                "id": "eb47aa92-ca3b-458b-b0ce-cc65c8e8c653",
+                "img": ""
+            },
+            {
+                "title": "机器学习应用案例",
+                "tag": "AI",
+                "preview": "该项目是一个基于《机器学习》（西瓜书）的代码实战项目，旨在通过实际代码实现常见机器学习算法，以帮助读者更好地理解和掌握算法原理。",
+                "url": "https://github.com/datawhalechina/machine-learning-toy-code",
+                "id": "0920944d-400d-4caf-a23e-c40c32507850",
+                "img": ""
+            },
+            {
+                "title": "李宏毅深度学习教程LeeDL-Tutorial",
+                "tag": "AI",
+                "preview": "《李宏毅深度学习教程》（LeeDL-Tutorial）是一个由台湾大学李宏毅教授推荐的深度学习教程项目。该教程以李宏毅教授的《机器学习》课程为基础，旨在帮助读者轻松入门深度学习。",
+                "url": "https://github.com/datawhalechina/leedl-tutorial",
+                "id": "95a6164f-a26d-4a40-85da-c90f27b5091c",
+                "img": ""
+            },
+            {
+                "title": "大模型基础：数据、架构、训练",
+                "tag": "AI",
+                "preview": "该项目旨在为人工智能、自然语言处理和机器学习领域的研究者和从业者提供大规模预训练语言模型的知识和技术。",
+                "url": "https://github.com/datawhalechina/so-large-lm",
+                "id": "44e7917c-911b-4aa5-8905-b03dd378c241",
+                "img": ""
+            },
+            {
+                "title": "大模型微调：全参数微调、PEFT微调",
+                "tag": "AI",
+                "preview": "该项目是一个针对中国初学者的开源大模型教程，旨在帮助用户在Linux环境下快速学习和使用开源大模型。",
+                "url": "https://github.com/datawhalechina/self-llm",
+                "id": "693abbd4-49cd-4569-9912-42366ec6ebe4",
+                "img": ""
+            },
+            {
+                "title": "大模型应用技术：Prompt工程、RAG、Agent",
+                "tag": "AI",
+                "preview": "Tiny-Universe 是一个开源项目，旨在为广大学习者提供一个清晰、可用的、可复现的大模型世界。该项目通过“全手搓”的方式，帮助学习者从底层原理出发，搭建一个完整的大模型系统，包括大模型本身、RAG 框架、Agent 系统及大模型评估体系。",
+                "url": "https://github.com/datawhalechina/tiny-universe",
+                "id": "3e01fdfd-92e7-4121-8b90-d6d8843343ae",
+                "img": ""
+            },
+            {
+                "title": "文生图、图生文、图生图、文生视频原理与实践",
+                "tag": "AI",
+                "preview": "HuggingVis项目是一个专注于视觉生成任务的GitHub项目，旨在帮助用户理解视觉生成大模型（包括图片、三维、视频生成）的原理和使用。",
+                "url": "https://github.com/datawhalechina/hugging-sd",
+                "id": "139f2eb9-2c78-4421-bf73-f545dfa79112",
+                "img": ""
+            },
+            {
+                "title": "多模态大模型原理与实践",
+                "tag": "AI",
+                "preview": "HuggingVis项目是一个专注于视觉生成任务的GitHub项目，包括图片、三维和视频生成。该项目旨在通过深入理解视觉信息编码和压缩的方法，分析不同模态的生成和编辑实现原理，并介绍视觉生成的社区和行业生态。",
+                "url": "https://github.com/datawhalechina/hugging-sd",
+                "id": "cfd7fa36-000f-471d-9c09-83b075d07db3",
+                "img": ""
+            },
+            {
+                "title": "蘑菇书EasyRL",
+                "tag": "AI",
+                "preview": "Easy-RL 是一个由 Datawhale China 开发的强化学习中文教程项目，旨在帮助读者理解和学习强化学习的基本概念和算法。",
+                "url": "https://github.com/datawhalechina/easy-rl",
+                "id": "ae387b16-8d4c-47b0-9a4b-a26f9a33d031",
+                "img": ""
+            },
+            {
+                "title": "人工智能综合应用实践",
+                "tag": "AI",
+                "preview": "项目“llm-universe”是一个面向小白开发者的大模型应用开发教程。该项目旨在帮助没有算法基础的初学者通过一个课程完成大模型开发的基础入门。",
+                "url": "https://github.com/datawhalechina/llm-universe",
+                "id": "ea192c5e-6c4b-4f63-a328-041326a03530",
+                "img": ""
+            },
+            {
+                "title": "LLM（机器学习）职位面试（2024年秋季）——流程回顾 [译]",
+                "tag": "AI",
+                "preview": "该网页详细分享了2024年秋季LLM/ML职位面试的流程和经验，包括不同公司类型、面试阶段、常见问题及准备建议。",
+                "url": "https://baoyu.io/translations/llm-ml-job-interviews-fall-2024-process",
+                "id": "e6a0756c-d9bf-4b9b-aa08-ea3c04a1444a",
+                "img": ""
+            }
+        ],
+        "优质科普": [
+            {
+                "title": "微积分的本质",
+                "tag": "数学",
+                "preview": "以动画形式呈现，深入浅出地讲解微积分的本质",
+                "url": "https://space.bilibili.com/88461692/lists/1528931?type=series",
+                "id": "4740cf3e-9565-42f3-9fac-d321b326a88f",
+                "img": ""
+            },
+            {
+                "title": "线性代数",
+                "tag": "数学",
+                "preview": "以动画形式呈现，深入浅出地讲解线性代数的本质",
+                "url": "https://www.bilibili.com/video/BV1ys411472E",
+                "id": "4bc0c885-2123-47ef-ba4c-b5dfd4f8e47a",
+                "img": ""
+            },
+            {
+                "title": "概率论",
+                "tag": "数学",
+                "preview": "以动画形式呈现，深入浅出地讲解概率论的本质",
+                "url": "https://space.bilibili.com/88461692/lists/1528924?type=series",
+                "id": "387c26f9-f6e7-469c-bef5-2b38582902d0",
+                "img": ""
+            },
+            {
+                "title": "微分方程",
+                "tag": "数学",
+                "preview": "以动画形式呈现，深入浅出地讲解微分方程的本质",
+                "url": "https://space.bilibili.com/88461692/lists/1528919?type=series",
+                "id": "d262f97e-5d02-4967-96ba-ca52f27afed0",
+                "img": ""
+            },
+            {
+                "title": "几何",
+                "tag": "数学",
+                "preview": "以动画形式呈现，深入浅出地讲解几何的本质",
+                "url": "https://space.bilibili.com/88461692/lists/1528915?type=series",
+                "id": "d059663a-aed8-4d81-a96d-752efc6d7360",
+                "img": ""
+            },
+            {
+                "title": "分形",
+                "tag": "数学",
+                "preview": "以动画形式呈现，深入浅出地讲解分形的本质",
+                "url": "https://space.bilibili.com/88461692/lists/1528933?type=series",
+                "id": "6207cd9e-189b-4291-b1f5-c41c122a4ead",
+                "img": ""
+            },
+            {
+                "title": "物理",
+                "tag": "物理",
+                "preview": "以动画形式呈现，深入浅出地讲解物理的本质",
+                "url": "https://space.bilibili.com/88461692/lists/1528911?type=series",
+                "id": "800d1f56-4dd2-4340-bf01-022341f80d2f",
+                "img": ""
+            },
+            {
+                "title": "深度学习",
+                "tag": "AI",
+                "preview": "以动画形式呈现，深入浅出地讲解深度学习的本质",
+                "url": "https://space.bilibili.com/88461692/lists/1528929?type=series",
+                "id": "9a894e42-8d2f-4352-be38-3ad775f402a7",
+                "img": ""
+            },
+            {
+                "title": "90分钟！清华博士带你一口气搞懂人工智能和神经网络",
+                "tag": "AI",
+                "preview": "深入浅出地讲解了人工智能和神经网络的基本概念和原理。",
+                "url": "https://www.bilibili.com/video/BV1atCRYsE7x/",
+                "id": "30efb7e8-4490-4482-97a0-a46a68ba93a2",
+                "img": ""
+            },
+            {
+                "title": "程序员究竟怎样用 AI？深度解读 WIRED 调查报告《How Software Engineers Actually Use AI》",
+                "tag": "编程",
+                "preview": "程序员普遍采用AI工具，提高工作效率，但同时也担忧技能退化及职业变化。",
+                "url": "https://baoyu.io/blog/programmers-use-ai-wired-report",
+                "id": "3f512d1c-0ca5-41b1-b841-eb56cc74935e",
+                "img": ""
+            },
+            {
+                "title": "AI 作为引擎，人类作为方向盘",
+                "tag": "AI",
+                "preview": "AI与人类合作，通过“AI作为引擎，人类作为方向盘”的范式，实现民主结构的好处，同时避免其弊端。",
+                "url": "https://baoyu.io/translations/ai-human-collaboration",
+                "id": "a2735bd4-1520-4cb8-a15c-d3373d63e531",
+                "img": ""
+            },
+            {
+                "title": "Google 旧闻重温：《我们没有护城河，OpenAI 也没有》",
+                "tag": "AI",
+                "preview": "Google 内部文件指出，开源社区在大语言模型上的竞争力不断提升，可能颠覆闭源模型的领先地位。",
+                "url": "https://baoyu.io/blog/google-openai-no-moat",
+                "id": "c79fbfb1-2d6c-4793-86c9-7a8d02aa054a",
+                "img": ""
+            },
+            {
+                "title": "AI 创业者需要学习《苦涩的教训》：第二章 - 无护城河 [译]",
+                "tag": "AI",
+                "preview": "在多数垂直领域，横向AI产品最终将超越垂直AI产品。",
+                "url": "https://baoyu.io/translations/ai-founders-bitter-lesson-chapter-2-no-power",
+                "id": "0cc4c306-3d88-416c-821c-5ba11f69dc13",
+                "img": ""
+            },
+            {
+                "title": "学习: 马斯洛需求模型",
+                "tag": "思维",
+                "preview": "该网页主要介绍了马斯洛需求模型，阐述了人类需求的五个层次及其相互关系，并探讨了如何通过理解需求进行有效激励。",
+                "url": "https://www.jianshu.com/p/d9925400952d",
+                "id": "240dbfbb-3eb3-4d98-ae61-273dff79dfb6",
+                "img": ""
+            },
+            {
+                "title": "设计模式六大原则",
+                "tag": "编程",
+                "preview": "设计模式六大原则，包括单一职责原则、里氏替换原则、依赖倒置原则、接口隔离原则、迪米特法则和开闭原则，旨在指导软件开发中的设计模式，提高代码的可维护性和可扩展性。",
+                "url": "http://www.uml.org.cn/sjms/201211023.asp",
+                "id": "35df41d3-5d45-403b-859f-8c0a1054fbf0",
+                "img": ""
+            },
+            {
+                "title": "项目管理 之一 软件开发生命周期（软件开发过程、瀑布模型、敏捷开发等）_项目生命周期及开发方法-CSDN博客",
+                "tag": "编程",
+                "preview": "本文详细介绍了软件开发生命周期（SDLC）的概念、阶段、方法论以及常见的软件开发过程模型，包括瀑布模型、敏捷开发等。",
+                "url": "https://blog.csdn.net/ZCShouCSDN/article/details/112426814",
+                "id": "79a0c98e-cf92-4b9b-9004-de113a6d9dfd",
+                "img": ""
+            },
+            {
+                "title": "MCP协议详解：复刻Manus全靠它，为什么说MCP是Agent进化的一大步？",
+                "tag": "AI",
+                "preview": "MCP协议详解：MCP是智能体进化的一大步，通过简化AI模型与外部工具的交互，提高效率并增强灵活性。",
+                "url": "https://mp.weixin.qq.com/s/msgNGCH_ptirK42xqsGWsA",
+                "id": "4b92f9d0-deb2-44cc-bdf9-c9b2f2b68362",
+                "img": ""
+            },
+            {
+                "title": "Lex Fridman 五小时聊 DeepSeek：一文看懂 DeepSeek 的创新与2025 AI 趋势",
+                "tag": "AI",
+                "preview": "Lex Fridman与两位嘉宾讨论了DeepSeek的开源模型及其在AI领域的创新，包括V3和R1模型的特点、开源权重的重要性以及AI训练和推理的最新趋势。",
+                "url": "https://mp.weixin.qq.com/s/eIaQxgCo9KivZ0qoBaS8YQ",
+                "id": "8745891c-3171-4fd8-9d90-f68c1c056fc0",
+                "img": ""
+            },
+            {
+                "title": "还有人记得Linux之前，那个理想又骄傲的BSD吗？",
+                "tag": "编程",
+                "preview": "回顾了BSD操作系统的发展历程，探讨了其与Linux的关系以及两者在开源领域的不同理念。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650139414&idx=1&sn=d59dc321949b6329e48e6fb114f2ba81&chksm=beda307889adb96ee23c6893cc4a7dde854ba836d3fe12456169762966522c7b0977493769c8&scene=21#wechat_redirect",
+                "id": "45530370-dd56-4c0a-be33-4fd099e44884",
+                "img": ""
+            },
+            {
+                "title": "FreeBSD大败局",
+                "tag": "编程",
+                "preview": "FreeBSD发展历程与挑战总结。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650140429&idx=1&sn=2e47511d5a9851efc875956ea997c742&chksm=beda346389adbd7534d7671d42ec059ac6b963dad17326cb65ff8722e7acd59945b51a55d82d&scene=178&cur_album_id=2454382997220098049#rd",
+                "id": "4c1704e9-8b8f-41f5-b88f-43ee72f4a236",
+                "img": ""
+            }
+        ],
+        "文章": [
+            {
+                "title": "ChatGPT 中，G、P、T 分别是什么意思？",
+                "tag": "AI",
+                "preview": "这篇文章主要解释了ChatGPT中G、P、T三个字母的含义。GPT代表Generative Pre-Training Transformer，即生成式预训练转换器。GPT模型是一种生成式模型，它通过预训练的方式，将输入的文字转换成输出的文字。文章还介绍了GPT模型的工作原理，包括生成式模型、预训练和转换器等概念。此外，文章还提到了ChatGPT是基于GPT-3模型，针对对话场景进行了微调，使其能够更好地进行多轮对话和设定安全边界。",
+                "url": "https://mp.weixin.qq.com/s/vXoYeA7w6l_WiKmDHogdTA",
+                "id": "80e19b6f-ecfb-4368-8612-ebf96fc6759d",
+                "img": ""
+            },
+            {
+                "title": "解析Tansformer模型—理解GPT-3, BERT和T5背后的模型",
+                "tag": "AI",
+                "preview": "Tansformer模型到底是什么？本文带你理解GPT-3、BERT和T5背后的模型。",
+                "url": "https://mp.weixin.qq.com/s/kfsW7ccYUAGp1AHWWF6c1w?poc_token=HMo2v2ejJud6xg2kbqRLp7vJZu8ODOb7Dsgn7e2Q",
+                "id": "d74bfe30-0517-48db-ac2f-2ca57814b2bc",
+                "img": ""
+            },
+            {
+                "title": "稳定扩散是如何运作的",
+                "tag": "AI",
+                "preview": "稳定扩散（Stable Diffusion）是一种基于深度学习的图像生成技术，它能够根据文本描述生成高质量的图像。",
+                "url": "https://waytoagi.feishu.cn/wiki/TNIRw7qsViYNVgkPaazcuaVfndc?table=tblolGx2mprs1EQz&view=vewgCZH6XZ",
+                "id": "cf5c855b-81e4-4156-a7c9-2426c1301b66",
+                "img": ""
+            },
+            {
+                "title": "陆奇最新演讲实录：我的大模型世界观",
+                "tag": "AI",
+                "preview": "陆奇在其最新演讲中，对大模型时代的狂飙速度进行了深入分析",
+                "url": "https://mp.weixin.qq.com/s/_ZvyxRpgIA4L4pqfcQtPTQ",
+                "id": "32fd3ee2-5ea7-4f27-b435-99da088ff6c1",
+                "img": ""
+            },
+            {
+                "title": "一站式LLM底层技术原理入门指南",
+                "tag": "AI",
+                "preview": "《The Document is All You Need！一站式LLM底层技术原理入门指南》是一份全面介绍大型语言模型（LLM）底层技术原理的入门指南。",
+                "url": "The Document is All You Need！一站式 LLM底层技术原理入门指南 ",
+                "id": "a9528d1a-ebab-4f22-b45b-3516317d5234",
+                "img": ""
+            },
+            {
+                "title": "详解Transformer （Attention Is All You Need）",
+                "tag": "AI",
+                "preview": "文章主要介绍了Transformer模型，这是一种基于注意力机制的神经网络，它在机器翻译等领域取得了显著成果。",
+                "url": "https://zhuanlan.zhihu.com/p/48508221",
+                "id": "c25dcf87-4690-43bc-a960-f857ec3ec72f",
+                "img": ""
+            },
+            {
+                "title": "万字长文，探讨关于ChatGPT的五个最核心问题",
+                "tag": "AI",
+                "preview": "这篇文章是关于ChatGPT的万字长文，主要探讨了ChatGPT的五个核心问题",
+                "url": "https://mp.weixin.qq.com/s/8U_mUn_dRDrB99OppK7oNA",
+                "id": "9cd8ba2a-55e2-4d8a-95c0-8eb8e5db142b",
+                "img": ""
+            },
+            {
+                "title": "通向AGI之路：大型语言模型（LLM）技术精要",
+                "tag": "AI",
+                "preview": "GPT-3.5出现后惊喜或惊醒了很多人，LLM到底是什么呢？",
+                "url": "https://zhuanlan.zhihu.com/p/597586623",
+                "id": "cabddcd2-53cb-4a00-887a-682015dc7f75",
+                "img": ""
+            },
+            {
+                "title": "从OpenAI的愿景和技术选择推演大模型生态",
+                "tag": "AI",
+                "preview": "主要讨论了OpenAI的愿景和技术选择，并从中推演了大模型生态。",
+                "url": "https://www.notion.so/OpenAI-b1ccaaeecd77433cbdf4f10855878146#d9be3637e59546229398c7af0acb6bb1",
+                "id": "6f8d7745-2cd0-419e-a3cf-cc28c540c8f5",
+                "img": ""
+            },
+            {
+                "title": "ChatGPT的各项超能力从哪儿来？万字拆解追溯技术路线图来了！",
+                "tag": "AI",
+                "preview": "拆解gpt-3.5的技术路线图",
+                "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650864144&idx=4&sn=1270624988d70f44d4059af7ac4ae4e0",
+                "id": "7ca53416-8fbc-4aee-94c3-f44b1260f9ed",
+                "img": ""
+            },
+            {
+                "title": "世界的参数倒影：为何GPT通过Next Token Prediction可以产生智能",
+                "tag": "AI",
+                "preview": "详细讲解了Next Token Prediction如何让GPT产生智能。",
+                "url": "https://zhuanlan.zhihu.com/p/632795115",
+                "id": "e0212479-23ab-4fbd-af2a-c0eba8a7358b",
+                "img": ""
+            },
+            {
+                "title": "【NLP】Prompt Learning 超强入门教程",
+                "tag": "AI",
+                "preview": "如何使用Prompt Learning让只会补全的base-model变成能够问答的助手",
+                "url": "https://zhuanlan.zhihu.com/p/442486331",
+                "id": "b05285c4-4d40-40d1-823e-902e701a81a2",
+                "img": ""
+            },
+            {
+                "title": "如果我们拥有世界上最好的产品工程组织，它会是什么样子？",
+                "tag": "组织",
+                "preview": "这篇文章探讨了理想中的世界最佳产品工程组织应具备的特点。",
+                "url": "https://baoyu.io/translations/the-best-product-engineering-org-in-the-world",
+                "id": "df63aa9d-dab4-4eeb-9852-a99eeadda63a",
+                "img": ""
+            },
+            {
+                "title": "使用编程技能赚取被动收入",
+                "tag": "成长",
+                "preview": "这篇文章是关于如何利用编程技能赚取被动收入的，作者分享了自己的十年经验。",
+                "url": "https://baoyu.io/translations/passive-income-programming-skills",
+                "id": "3e1ccfd5-3ca9-490c-aaa0-a198f64ccf9c",
+                "img": ""
+            },
+            {
+                "title": "开发软件成本越来越低，但创意更值钱：AI 产品经理将炙手可热",
+                "tag": "AI",
+                "preview": "主要讨论了人工智能在产品管理中的影响和趋势。",
+                "url": "https://baoyu.io/translations/ai-product-management-golden-age",
+                "id": "01b6f8c8-3eb0-400d-85fa-0f8e02260a69",
+                "img": ""
+            },
+            {
+                "title": "AI 初创公司最危险的做法：就是为其他 AI 初创公司构建产品",
+                "tag": "创业",
+                "preview": "主要讨论了人工智能初创公司面临的风险实践",
+                "url": "https://baoyu.io/translations/ai-startup-riskiest-practices",
+                "id": "ab289e01-9129-469d-8fc3-c7fc03c96e19",
+                "img": ""
+            },
+            {
+                "title": "什么是智能体？",
+                "tag": "AI",
+                "preview": "Langchain中的“智能体”是一个使用大语言模型（LLM）来决定应用程序控制流的系统。它通常被认为是高级的、自主的、类似人类的。智能体的定义并不完美，因为不同的人对它的理解有所不同。智能体的能力可以被视为一个光谱，从简单的路由选择到复杂的自主决策。在LangChain中，智能体特性指的是系统依赖LLM来决定其行为方式的程度。智能体特性越强，系统就越复杂，需要更多的支持和监控。智能体的应用包括但不限于路由器、状态机，以及能够构建工具和记忆的自主智能体。理解智能体特性对于开发、运行和评估LLM系统至关重要。",
+                "url": "https://baoyu.io/translations/langchain/what-is-an-agent",
+                "id": "18380de6-263a-4472-a854-1e37036a8262",
+                "img": ""
+            },
+            {
+                "title": "什么是“认知架构”？",
+                "tag": "AI",
+                "preview": "主要介绍了“认知架构”的概念及其在人工智能中的应用。",
+                "url": "https://baoyu.io/translations/ai-startup-riskiest-practices",
+                "id": "e7c89bcb-bece-430e-b09b-e89ff753ada3",
+                "img": ""
+            },
+            {
+                "title": "Sam Altman 在斯坦福创业者思维领导研讨会上的对话",
+                "tag": "创业",
+                "preview": "在Sam Altman的演讲中，他分享了对人工智能（AI）未来可能性的看法",
+                "url": "https://baoyu.io/translations/transcript/the-possibilities-of-ai-entire-talk-sam-altman-openai",
+                "id": "8b959ac3-ec13-44b5-abce-1e4159cc11a6",
+                "img": ""
+            },
+            {
+                "title": "Agent四大范式 | 综述：全面理解Agent工作原理",
+                "tag": "AI",
+                "preview": "这篇文章是关于“Agent四大范式”的综述，全面介绍了智能体（Agent）的工作原理。",
+                "url": "https://mp.weixin.qq.com/s/tkousJvbJ99QiVgDIhi2gw",
+                "id": "cb720b64-9a5a-457d-90e5-3e3d444e1b61",
+                "img": ""
+            },
+            {
+                "title": "110页ARK重磅报告：AI颠覆一切，但没来得及覆盖DeepSeek",
+                "tag": "AI",
+                "preview": "这是一篇由“Z计划”发布的110页ARK重磅报告。",
+                "url": "https://mp.weixin.qq.com/s/fCWkroeTRB4gBBiDAwpOPg",
+                "id": "ccc6f9c4-eb24-4f65-9ebb-eb2067e05bca",
+                "img": ""
+            },
+            {
+                "title": "基于DeepSeek构建RAG 系统综合指南（含代码）",
+                "tag": "AI",
+                "preview": "这篇文章介绍了如何利用DeepSeek的先进语言模型构建多语言RAG（检索增强生成）系统。RAG系统通过整合高效的向量存储和检索技术，能够提供准确、上下文感知的回复，并具备动态更新知识的能力。",
+                "url": "https://mp.weixin.qq.com/s/D0aFAQZO2B07Q-lfNfzIhg",
+                "id": "81dbb013-d81e-449a-875c-b088db8129e1",
+                "img": ""
+            },
+            {
+                "title": "DeepSeek在文献综述中的能力分享 - 30个进阶指令",
+                "tag": "AI",
+                "preview": "这篇文章主要介绍了DeepSeek这一先进的大语言模型在文献综述撰写中的应用。",
+                "url": "https://mp.weixin.qq.com/s/OEy7io5_GcbXyzvHROlX8w",
+                "id": "99c3c710-f36f-4df0-8f90-ae7238ce2ec2",
+                "img": ""
+            },
+            {
+                "title": "清华出的DeepSeek使用手册，104页，真的是太厉害了！（免费领取）",
+                "tag": "AI",
+                "preview": "这篇文章是关于清华大学新闻与传播学院新媒体研究中心元宇宙文化实验室的余梦珑博士后及其团队撰写的《DeepSeek从入门到精通2025》使用手册的介绍。",
+                "url": "https://mp.weixin.qq.com/s/ckxVWOXCFWBk9ivXYmrwDA",
+                "id": "2c0f1320-43b2-4245-a94d-8407044a04db",
+                "img": ""
+            },
+            {
+                "title": "数学与AI之间的文化鸿沟",
+                "tag": "数学",
+                "preview": "文章探讨了数学与人工智能之间的文化差异及其对理解的影响。",
+                "url": "https://baoyu.io/translations/understanding-the-cultural-divide-between-mathematics-and-ai",
+                "id": "4557d735-b82f-4bc1-9714-3188b2c45318",
+                "img": ""
+            },
+            {
+                "title": "在大语言模型时代如何改进推荐系统与搜索 | 宝玉的分享",
+                "tag": "AI",
+                "preview": "该网页主要探讨了在语言模型时代如何通过改进推荐系统和搜索技术来提升工业界的搜索和推荐效果。",
+                "url": "https://baoyu.io/translations/llm-enhanced-recs-search",
+                "id": "c6e7dc90-5437-4801-b20c-ba9c4f978869",
+                "img": ""
+            },
+            {
+                "title": "一个完整的项目复盘到底要怎么做？ – 人人都是产品经理",
+                "tag": "创业",
+                "preview": "本文详细阐述了项目复盘的完整流程和步骤，包括目标回顾、结果陈述、过程分析和规律总结，旨在帮助提升项目运营能力。",
+                "url": "https://www.woshipm.com/operate/2794097.html",
+                "id": "730eac3e-4228-4bde-8e77-e9451d8dfcfc",
+                "img": ""
+            },
+            {
+                "title": "100种思维模型-1.个人价值冰山模型（1）",
+                "tag": "思维",
+                "preview": "文章介绍了冰山模型，该模型将个人素质分为表面和深层次部分，并分析了个人价值构成。",
+                "url": "https://www.jianshu.com/p/ee94d05d2ba6",
+                "id": "37c313e2-2511-4f56-97e0-d019187560c3",
+                "img": ""
+            },
+            {
+                "title": "如何做好人生效率管理",
+                "tag": "思维",
+                "preview": "文章主要探讨了如何通过学习王阳明的心学和高效能人生的自我管理方法，提升个人效率，实现人生目标。",
+                "url": "https://www.jianshu.com/p/a3c274cb2d22",
+                "id": "54389bbb-f95f-439e-a4cd-5cde8d976fc9",
+                "img": ""
+            },
+            {
+                "title": "产品歪楼要怪谁？——如何做好产品决策中的内部环境分析",
+                "tag": "创业",
+                "preview": "文章探讨了产品决策中内部环境分析的重要性，并介绍了麦肯锡7S模型和精益画布在产品分析中的应用。",
+                "url": "https://www.jianshu.com/p/a3b0483e4aea",
+                "id": "164bc7ca-8809-40d3-bed7-42aa0e04fa36",
+                "img": ""
+            },
+            {
+                "title": "软件开发团队如何管理琐碎、突发性任务_任务的突然性-CSDN博客",
+                "tag": "编程",
+                "preview": "该网页主要探讨了软件开发团队如何有效管理突发性和琐碎的任务，以提高工作效率和项目成功率。",
+                "url": "https://blog.csdn.net/devcloud/article/details/103064119",
+                "id": "cae06fd8-2de5-49dc-9c77-68962ab54183",
+                "img": ""
+            },
+            {
+                "title": "张一鸣：做CEO要避免理性的自负 | 2017年码会",
+                "tag": "创业",
+                "preview": "张一鸣分享CEO管理心得，强调避免理性自负，提倡“充分Context，少量Control”的管理模式。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDkzNTExMg==&mid=2649507275&idx=1&sn=f31d50fa3d964914d600f290c0b6e022&chksm=885fe4ecbf286dfa7a9160925b0a0882d5d8539686b1b11beefc529920971a05b3029912be6f&mpshare=1&scene=1&srcid=0424m02KJLhorT9ZdowtEitF&key=6af303409963e630eb6a8ac4e7e87b037b81a0eff108f10a464be0cbfc57fa1a007dcc4d99ccf861e3a27f7762caae4ab475b61bb5177e449e1958f094a9c507b39f83ac02f0cbdad6a63332f322de57&ascene=0&uin=NjUzNjY4NQ%3D%3D&devicetype=iMac+MacBookAir7%2C2+OSX+OSX+10.12.4+build(16E195)&version=12020110&nettype=WIFI&fontScale=100&pass_ticket=3IXfiaKztm9fG3hKXy4o2Uf7TYN34rorI5wUmypwUGg%3D",
+                "id": "d34fafeb-89de-405c-ba92-4921fb14f1f0",
+                "img": ""
+            },
+            {
+                "title": "研发团队资源成本优化实践",
+                "tag": "编程",
+                "preview": "美团到餐研发团队分享了他们的资源成本优化实践，通过科学的方法论和细致的执行，实现了技术资源成本每月下降近32%，一年节省开支约几千万。",
+                "url": "https://tech.meituan.com/2019/02/21/rd-team-resource-cost-optimization-practice.html",
+                "id": "e0494f4b-e186-41e3-a629-847bf2ee1657",
+                "img": ""
+            },
+            {
+                "title": "Manus产品负责人张涛万字解析：DeepSeek R1是怎么炼成的？",
+                "tag": "AI",
+                "preview": "文章详细解析了DeepSeek R1模型的研发过程，探讨了其背后的技术进步和产品思路，并分析了其在学术界和市场上的影响力。",
+                "url": "https://mp.weixin.qq.com/s/xKYh-_l4y9oehJ4Br4zgng",
+                "id": "10c06613-64aa-4b42-8230-6a95fc2ace6f",
+                "img": ""
+            },
+            {
+                "title": "对话Manus肖弘：Manus和Monica诞生背后，创始人的完整思考",
+                "tag": "创业",
+                "preview": "文章讲述了AI应用创业者肖弘及其公司Manus的发展历程，以及他对AI技术、产品和创业的思考。",
+                "url": "https://mp.weixin.qq.com/s/rlaOi_irZNr4yhZKOR3ODw",
+                "id": "54f0629c-ff39-4fbf-a498-7be4bddb5dd1",
+                "img": ""
+            },
+            {
+                "title": "跟硅谷AI新星聊了一圈后，我们发现了中美创业的不同，以及突围点",
+                "tag": "创业",
+                "preview": "探讨中美AI创业差异，分析中国创业团队优势与全球化路径。",
+                "url": "https://mp.weixin.qq.com/s/DskNlwZnh8scMHLpjv8tQA",
+                "id": "fdaaaacb-7860-42ee-94c0-17114d57f69d",
+                "img": ""
+            },
+            {
+                "title": "拾象科技李广密：对 DeepSeek 和智能下半场的几条判断",
+                "tag": "创业",
+                "preview": "sina.com 是一家提供新闻、娱乐、体育、财经等综合性资讯的网站。",
+                "url": "https://mp.weixin.qq.com/s/p5CPfiXYYrzzbie1qF6P-Q",
+                "id": "b3b11e70-bf36-497b-b255-e513c74cd614",
+                "img": ""
+            },
+            {
+                "title": "适兕：成为开源布道师",
+                "tag": "编程",
+                "preview": "文章讲述了李建盛如何从个人经历出发，成为开源布道师，并致力于推广开源文化和知识。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650097835&idx=1&sn=ab65862f2f1530cfc819a925658906cf&chksm=beda93c589ad1ad302ad6d8f99b62963d42adbe5350a9f82523102a332e1448881450f41e67a&scene=178&cur_album_id=1681608234270261261#rd",
+                "id": "d8477995-a40e-45f0-a52f-86c0d459aa0c",
+                "img": ""
+            },
+            {
+                "title": "卫剑钒，开源圈的“世外高手”",
+                "tag": "编程",
+                "preview": "卫剑钒，一位对开源文化有深刻理解的专家，通过翻译《大教堂与集市》和撰写相关文章，推动开源文化在中国的发展。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650104013&idx=1&sn=6fc934f5100d55605aa41af204dd97b8&chksm=bedabba389ad32b5a70f669579fd7f9652e4e8d67650d4e460f58cd22c57b57920567e66dd12&scene=178&cur_album_id=1681608234270261261#rd",
+                "id": "6a1f2291-b607-4f17-a3c9-ff7a1ca1dd4b",
+                "img": ""
+            },
+            {
+                "title": "“工具人” 赵生宇：清北本硕，为开源从阿里辞职去同济读博",
+                "tag": "编程",
+                "preview": "赵生宇通过个人经历和学术研究，探讨了开源的意义及其在组织和社会中的变革作用。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650106768&idx=1&sn=c62331adbca491369032978c2be5e038&chksm=bedab0fe89ad39e8efc1ebe3ac7a1fc03d2cad28594ad3569ce7eedc4154ef7894d66037d1bb&scene=178&cur_album_id=1681608234270261261#rd",
+                "id": "8d318ced-a7b1-46de-a3a7-c9e317d7187a",
+                "img": ""
+            },
+            {
+                "title": "ASF董事吴晟：真正伤害开源的是开发者本身",
+                "tag": "编程",
+                "preview": "吴晟谈开源：社交是关键，开发者自身行为是开源的最大挑战。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650116595&idx=2&sn=89138c57e8b0ff9596409b4f67ac1ae8&chksm=beda4a9d89adc38bc30eab8474046ead3762e2bf58a9f0dde84a0f42f965f1ae7618d447254b&scene=178&cur_album_id=1681608234270261261#rd",
+                "id": "00dc266e-f3b1-4e5c-a0c9-845e1d7746eb",
+                "img": ""
+            },
+            {
+                "title": "姜宁，带程序员前往开源“乌托邦”",
+                "tag": "编程",
+                "preview": "姜宁致力于开源布道，推动开源项目发展，并成为Apache软件基金会董事。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650142120&idx=2&sn=dca13bccc92ad76c803412a5e69b2977&chksm=beda2ec689ada7d08f24abc9b7e31d623a3b58cbbb509cae7a693a2b5d702930c322a3bc9089&scene=178&cur_album_id=1681608234270261261#rd",
+                "id": "0f6599f5-da01-413f-a81c-94ab067244db",
+                "img": ""
+            },
+            {
+                "title": "悟空刘歧：技术瑕疵不除不快，开源社区代码说话",
+                "tag": "编程",
+                "preview": "刘歧通过在FFmpeg社区解决技术问题，成长为开源项目的重要贡献者，并分享了他在开源社区的成长经历。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650171315&idx=1&sn=ef442e653402852093822dfd18d890ef&chksm=bed9bcdd89ae35cb3ae623f9db77d4bb41a3020f09614e3621f513add3f74c6f3d4e98d9c4f8&scene=178&cur_album_id=1681608234270261261#rd",
+                "id": "23d00248-4fc2-4a4b-9aa1-0ee8f3d5de7b",
+                "img": ""
+            },
+            {
+                "title": "郭炜：开源大侠是怎样炼成的",
+                "tag": "创业",
+                "preview": "郭炜带领开源数据集成工具Apache SeaTunnel从困境中崛起，成为全球数据集成平台。",
+                "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=2650195960&idx=1&sn=d22f513c608ee56a50a88fd6ef0eda89&chksm=bed91c9689ae958012ccd6dd6931fd418c1dc9e5cbdef84c0888f77e25d8e7474827b8753523&scene=178&cur_album_id=1681608234270261261#rd",
+                "id": "15febdb9-f6ab-4259-8d02-0c2d0967b671",
+                "img": ""
+            }
+        ],
+        "竞赛": [
+            {
+                "title": "ACM算法日常",
+                "tag": "ACM",
+                "preview": "该项目由公众号《ACM算法日常》整理，旨在提供一个全面的算法学习路线图。",
+                "url": "https://github.com/acm-clan/algorithm-stone",
+                "id": "468cc361-3374-4fa9-acf1-a8ea1763c652",
+                "img": ""
+            },
+            {
+                "title": "ACM-ICPC-resource",
+                "tag": "ICPC",
+                "preview": "该项目提供了关于ACM-ICPC比赛的学习材料和资源。",
+                "url": "https://github.com/morris821028/ACM-ICPC-resource",
+                "id": "d62368fc-ec21-446e-ac50-a63688de6ce9",
+                "img": ""
+            },
+            {
+                "title": "Kaggle学习路径",
+                "tag": "Kaggle",
+                "preview": "该学习路径旨在帮助用户全面了解Kaggle竞赛，掌握相关技能，并提高在Kaggle竞赛中的表现。",
+                "url": "https://coggle.club/blog/kaggle-roadmap",
+                "id": "1e9e35ac-44d2-4a34-9264-bee43f71fc4a",
+                "img": ""
+            }
+        ],
+        "书籍": [
+            {
+                "title": "《程序员修炼之道》",
+                "tag": "编程",
+                "preview": "《程序员修炼之道》是一本对程序员极具价值的书籍。它涵盖了编程领域的众多实用经验与优秀实践方法，内容涉及代码编写规范、软件项目管理、团队协作等多方面，旨在帮助程序员提升技能、解决实际工作中的问题并养成良好的编程习惯等。",
+                "url": "https://z-library.sk/book/13205217/5d3912/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93%E9%80%9A%E5%90%91%E5%8A%A1%E5%AE%9E%E7%9A%84%E6%9C%80%E9%AB%98%E5%A2%83%E7%95%8C%E7%AC%AC2%E7%89%88.html",
+                "id": "16fe62ae-96dd-4157-b329-1db68255ad6f",
+                "img": ""
+            },
+            {
+                "title": "《算法》",
+                "tag": "编程",
+                "preview": "算法是计算机科学领域最重要的知识，它们是计算机程序的基础，也是计算机程序的魔法。",
+                "url": "https://z-library.sk/book/11731443/4540c1/%E7%AE%97%E6%B3%95-%E7%AC%AC%E5%9B%9B%E7%89%88-algorithms-4th-editionchinese-edition.html",
+                "id": "c405eb77-06b0-4709-b501-4c1e0e133e23",
+                "img": ""
+            },
+            {
+                "title": "《算法导论》",
+                "tag": "编程",
+                "preview": "《算法导论》是一本在计算机科学领域非常经典的书籍，涵盖了广泛的算法知识，包括排序、搜索、图算法等，对算法的分析、设计等方面有着深入讲解，为计算机科学及相关专业的人员学习和研究算法提供了重要参考。",
+                "url": "https://z-library.sk/book/5442421/d42556/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA%E5%8E%9F%E4%B9%A6%E7%AC%AC3%E7%89%88.html",
+                "id": "895b0f73-0b8d-4cb7-bf9d-b8c40dfceac4",
+                "img": ""
+            },
+            {
+                "title": "《算法图解》",
+                "tag": "编程",
+                "preview": "《算法图解》是一本以简洁易懂的方式介绍算法的书籍。它可能涵盖了常见算法的原理、应用场景、以及算法复杂度等基础知识，适合初学者入门算法领域。",
+                "url": "https://z-library.sk/book/5420811/fb26eb/%E7%AE%97%E6%B3%95%E5%9B%BE%E8%A7%A3.html",
+                "id": "b5c30c98-1545-4236-bc2a-ab39a3ee792e",
+                "img": ""
+            },
+            {
+                "title": "《数据结构、算法与应用: C++语言描述》",
+                "tag": "编程",
+                "preview": "《数据结构、算法与应用》是一本聚焦于数据结构、算法等相关知识的书籍。它可能涵盖数据结构的基本类型如数组、链表等，算法的设计与分析，以及这些数据结构和算法在实际应用中的体现，有助于读者理解计算机科学领域中的基础且重要的概念，提升解决实际问题的能力。",
+                "url": "https://z-library.sk/book/5693370/b03d97/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8%E5%8E%9F%E4%B9%A6%E7%AC%AC2%E7%89%88-c%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0.html",
+                "id": "9da7993b-75f5-468e-9fb3-96f66b38d7c6",
+                "img": ""
+            },
+            {
+                "title": "《利用Python进行数据分析》",
+                "tag": "数据科学",
+                "preview": "《利用Python进行数据分析》是一本专注于使用Python进行数据分析的书籍。它可能涵盖了Python语言在数据收集、整理、分析以及可视化等方面的知识与工具应用，有助于读者掌握使用Python解决数据分析相关任务的能力。",
+                "url": "https://z-library.sk/book/5422102/6e02f0/%E5%88%A9%E7%94%A8python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90-%E5%8E%9F%E4%B9%A6%E7%AC%AC2%E7%89%88.html",
+                "id": "ef966c35-0eea-418d-99ce-f4972ab900e0",
+                "img": ""
+            },
+            {
+                "title": "《Python编程：从入门到实践》",
+                "tag": "编程",
+                "preview": "《Python编程：从入门到实践》是一本适合初学者学习Python编程的书籍。它涵盖了Python编程的基础知识，同时通过实际项目帮助读者巩固所学内容，在讲解过程中结合大量实例，能让读者逐步掌握Python编程技能并应用到实际开发中。",
+                "url": "https://z-library.sk/book/17047313/2cf33e/python%E7%BC%96%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5%E7%AC%AC2%E7%89%88.html",
+                "id": "f7e69910-9071-4ac6-b837-2c53ee0f6628",
+                "img": ""
+            },
+            {
+                "title": "《Python神经网络编程》",
+                "tag": "AI",
+                "preview": "《Python神经网络编程》是一本介绍神经网络相关知识并基于Python语言的书籍。它可能涵盖神经网络的基础概念、原理，以及如何利用Python来构建和实现神经网络，适合想要学习神经网络编程的读者。",
+                "url": "https://z-library.sk/book/5433614/9b2ba0/python%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B-make-your-own-neural-network.html",
+                "id": "c2262f8d-5ce7-4509-a690-d547c1c0bc54",
+                "img": ""
+            },
+            {
+                "title": "《精通Rust》",
+                "tag": "编程",
+                "preview": "《精通Rust》是一本关于Rust编程语言的书籍，它可能涵盖Rust的语法、特性、编程技巧等内容，有助于读者深入掌握Rust语言的各种知识。",
+                "url": "https://z-library.sk/book/17087394/65c8d4/%E7%B2%BE%E9%80%9Arust%E7%AC%AC2%E7%89%88.html",
+                "id": "b445d64c-d658-4ff2-8654-3d7516df17b2",
+                "img": ""
+            },
+            {
+                "title": "《Rust编程之道》",
+                "tag": "编程",
+                "preview": "《Rust编程之道》是一本介绍Rust编程语言的书籍，它涵盖了Rust语言的基本概念、语法、特性以及编程实践等多方面内容，有助于读者深入学习和掌握Rust编程。",
+                "url": "https://z-library.sk/book/5539891/6354d2/rust-%E7%BC%96%E7%A8%8B%E4%B9%8B%E9%81%93.html",
+                "id": "be0f86df-c2df-473e-8895-089fe11b1296",
+                "img": ""
+            },
+            {
+                "title": "《Rust程序设计》",
+                "tag": "编程",
+                "preview": "",
+                "url": "https://z-library.sk/book/26909226/a7555c/rust-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%AC2%E7%89%88.html",
+                "id": "e4941216-5a38-4c49-b618-08d80ef57aa7",
+                "img": ""
+            },
+            {
+                "title": "《Rust实战》",
+                "tag": "编程",
+                "preview": "《Rust程序设计》是一本关于Rust编程语言的书籍，可能涵盖Rust的基础语法、编程概念、数据类型、函数等众多内容，旨在帮助读者掌握Rust程序开发。",
+                "url": "https://z-library.sk/book/24033654/0b8ffa/rust%E5%AE%9E%E6%88%98.html",
+                "id": "d753d3bc-f562-486f-b6e4-938b87f929a3",
+                "img": ""
+            },
+            {
+                "title": "《Rust权威指南》",
+                "tag": "编程",
+                "preview": "《Rust权威指南》是一本关于Rust编程语言的书籍。它可以帮助读者学习Rust的语法、特性、编程范式等，是学习Rust较为权威的参考资料。",
+                "url": "https://z-library.sk/book/17656152/753286/rust%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97.html",
+                "id": "63fab65d-e084-4d19-9f71-ced12823767b",
+                "img": ""
+            },
+            {
+                "title": "《西瓜书》",
+                "tag": "AI",
+                "preview": "《西瓜书》是一本专注于机器学习领域的书籍，它可能涵盖机器学习的基本概念、算法、模型构建、数据处理等多方面内容，旨在帮助读者了解和掌握机器学习相关知识，为从事该领域的学习、研究或应用开发提供理论与实践指导。",
+                "url": "https://z-library.sk/book/11891166/538836/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-machine-learning-chinese-edition.html",
+                "id": "405ada7e-b6df-455d-8bb3-69b9f784b73e",
+                "img": ""
+            },
+            {
+                "title": "《南瓜书》",
+                "tag": "",
+                "preview": "《南瓜书》是《西瓜书》的数学公式推导讲解",
+                "url": "https://datawhalechina.github.io/pumpkin-book/#/",
+                "id": "a37bf0dc-f395-47a4-91ea-cccb421b05b6",
+                "img": ""
+            },
+            {
+                "title": "《机器学习实战：基于Scikit-Learn、Keras和TensorFlow》",
+                "tag": "AI",
+                "preview": "《机器学习实战》是一本很实用的关于机器学习的书籍。它涵盖了机器学习的基础知识和多种算法，通过实际的案例与代码示例帮助读者理解如何将机器学习技术应用到实际问题中，适合想要入门机器学习的读者。",
+                "url": "https://z-library.sk/book/18471555/962c3a/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%E5%9F%BA%E4%BA%8Escikitlearnkeras%E5%92%8Ctensorflow%E5%8E%9F%E4%B9%A6%E7%AC%AC2%E7%89%88.html",
+                "id": "695c72eb-8178-444e-8fb4-0a240a788a74",
+                "img": ""
+            },
+            {
+                "title": "《ALGORITHMS FOR DECISION MAKING》",
+                "tag": "AI",
+                "preview": "仅根据书名《ALGORITHMS FOR DECISION MAKING》推测，这可能是一本关于决策算法的书籍。也许书中会探讨各种用于辅助决策的算法，包括其原理、应用场景以及在不同领域中的意义等，但具体内容由于缺乏更多信息难以详细说明。",
+                "url": "https://algorithmsbook.com/",
+                "id": "b2e88478-dcd2-46b5-902b-f69676c3caef",
+                "img": ""
+            },
+            {
+                "title": "《Machine Learning:AProbabilistic Perspective》",
+                "tag": "AI",
+                "preview": "《Machine Learning: A Probabilistic Perspective》是一本关于机器学习的书籍，它从概率的视角来阐述机器学习相关内容，为读者理解机器学习的原理、算法等提供了独特的视角和深入的知识。",
+                "url": "https://z-library.sk/book/2222792/f18307/machine-learning-a-probabilistic-perspective.html",
+                "id": "06fe67f3-e5e3-4fd1-8ce5-84f4507bc0f9",
+                "img": ""
+            },
+            {
+                "title": "《动手学深度学习》",
+                "tag": "AI",
+                "preview": "《动手学深度学习》是一本有关深度学习的书籍，它旨在让读者通过实际动手操作来深入理解深度学习的概念、算法等知识，对深度学习的入门和实践有很大帮助。",
+                "url": "https://z-library.sk/book/5210646/da8139/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.html",
+                "id": "c3348f97-03d3-4358-8e86-de57f1b77edd",
+                "img": ""
+            },
+            {
+                "title": "《花书》",
+                "tag": "AI",
+                "preview": "《花书》是深度学习领域的圣经",
+                "url": "https://z-library.sk/book/3679112/415fb8/deep-learning.html",
+                "id": "09545d74-601c-44ef-8a44-1fa50e37da91",
+                "img": ""
+            },
+            {
+                "title": "《深度学习的数学》",
+                "tag": "AI",
+                "preview": "《深度学习的数学》是一本关于深度学习相关数学知识的书籍，它可能涵盖深度学习算法背后的数学原理、数学模型构建以及相关数学工具的运用等内容，有助于读者深入理解深度学习的理论基础。",
+                "url": "https://z-library.sk/book/6159585/fff50a/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%A6.html",
+                "id": "0a89947a-e404-45c4-b5b0-76010983041f",
+                "img": ""
+            },
+            {
+                "title": "《统计学习》",
+                "tag": "AI",
+                "preview": "《统计学习》是一本专注于统计学习相关知识的书籍，可能会涵盖诸如统计学习的基本概念、算法、模型评估等多个方面的内容，有助于读者深入理解统计学习的原理与应用。",
+                "url": "https://z-library.sk/book/18259885/98f785/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E7%AC%AC2%E7%89%88.html",
+                "id": "bbdb0fc3-131c-4f57-8a73-48b5fe7624c0",
+                "img": ""
+            },
+            {
+                "title": "《An Introduction to Statistical Learning》",
+                "tag": "AI",
+                "preview": "《An Introduction to Statistical Learning》是一本有关统计学习的入门书籍。它涵盖了广泛的统计学习概念、方法和技术，为读者提供了统计学习领域的基础知识，并且通常被用于统计、数据科学等相关学科的学习和研究参考资料。",
+                "url": "https://z-library.sk/book/16896504/5fb249/an-introduction-to-statistical-learning-with-applications-in-r-second-edition.html",
+                "id": "43c3b43b-cfaf-46b0-810a-ebbc5245bddb",
+                "img": ""
+            },
+            {
+                "title": "《The Elements of Statistical Learning》",
+                "tag": "AI",
+                "preview": "《The Elements of Statistical Learning》是一本经典的统计学学习书籍。它涵盖了统计学习的基础知识，包含众多方法如回归、分类、聚类等内容，对统计学原理以及相关算法进行讲解，为读者深入学习统计知识提供了很好的素材，在数据科学、统计学等相关领域备受推崇。",
+                "url": "https://z-library.sk/book/2854018/eeb35e/the-elements-of-statistical-learning-data-mining-inference-and-prediction.html",
+                "id": "5f751901-56fd-461e-b75f-d255e8c36cab",
+                "img": ""
+            },
+            {
+                "title": "《人工智能：一种现代的方法》",
+                "tag": "AI",
+                "preview": "《人工智能：一种现代的方法》是一本经典的人工智能教材。它涵盖了人工智能领域的广泛知识，包括搜索算法、知识表示、机器学习、自然语言处理、机器人学等诸多方面。通过系统的阐述和讲解，为读者提供了对人工智能全面而深入的理解。",
+                "url": "https://z-library.sk/book/15839914/6f63ba/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%B8%80%E7%A7%8D%E7%8E%B0%E4%BB%A3%E7%9A%84%E6%96%B9%E6%B3%95artificial-intelligence-a-modern-approach%E7%AC%AC3%E7%89%88.html",
+                "id": "453d3efd-8a4c-4d3b-9a79-5a7ecc9c3415",
+                "img": ""
+            },
+            {
+                "title": "《概率导论》",
+                "tag": "数学",
+                "preview": "《概率导论》是一本关于概率知识的书籍，它可能包含概率的基本概念、计算方法、概率模型等重要内容，有助于读者系统地学习概率相关知识。",
+                "url": "https://z-library.sk/book/17198027/ed3884/%E6%A6%82%E7%8E%87%E5%AF%BC%E8%AE%BA.html",
+                "id": "0f7dfbae-d3d9-4598-a23a-95d8303d2c2c",
+                "img": ""
+            },
+            {
+                "title": "《统计学完全教程》",
+                "tag": "",
+                "preview": "《All of Statistics: A Concise Course in Statistical Inference》是一本关于统计推断的书籍，它以简洁的方式涵盖了统计领域相关知识。",
+                "url": "https://z-library.sk/book/5322620/e8758d/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B.html",
+                "id": "0327337d-0ce7-4fa3-9898-d28a69cb4d60",
+                "img": ""
+            },
+            {
+                "title": "《Elementary differential equations with boundary value problems 》",
+                "tag": "数学",
+                "preview": "《Elementary differential equations with boundary value problems》可能是一本关于初等微分方程与边值问题的书籍，这类书籍通常会讲解微分方程的基本概念、求解方法以及涉及边值问题的分析与处理等内容，适合相关专业的学生或研究人员学习参考。",
+                "url": "https://z-library.sk/book/2082963/768299/elementary-differential-equations-and-boundary-value-problems.html",
+                "id": "8c80e33e-a823-48d5-b4f9-176b2e5382d0",
+                "img": ""
+            },
+            {
+                "title": "《Introduction to Linear Algebra》",
+                "tag": "数学",
+                "preview": "《Introduction to Linear Algebra》是一本关于线性代数的入门书籍，可能涵盖线性代数的基本概念、原理、方法等基础知识，旨在帮助读者初步理解线性代数这个数学分支。",
+                "url": "https://z-library.sk/book/28258145/69f0be/introduction-to-linear-algebra-ed-5.html",
+                "id": "3083d742-b3c7-457f-9ce7-c55693b302ae",
+                "img": ""
+            }
+        ]
+    }
+}
