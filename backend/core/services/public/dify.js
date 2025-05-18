@@ -7,7 +7,7 @@ class Dify {
     this.userId = "zhiqu-app";
   }
 
-  async runWorkflow(apiKey, payload) {
+  async runWorkflow_blocking(apiKey, payload) {
     const headers = {
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
