@@ -4,7 +4,7 @@ const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
 const app = express();
 app.use(express.json());
-const apiRouter = require('./analyze/analyze');
+const apiRouter = require('./api/api');
 
 // 初始化日志
 logger.init().then(() => {
