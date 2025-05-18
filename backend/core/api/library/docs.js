@@ -1,30 +1,17 @@
 const express = require('express');
 const docsRouter = express.Router();
-const fs = require('fs');
-const path = require('path');
+const DocsService = require('../../services/library/docs');
 const logger = require('../../logger/logger');
 
+const docsService = new DocsService();
 
-docsRouter.get('/json', (req, res) => {
-
-    const filePath = path.join(__dirname, '../../../storage/static', 'example.json');
-    // 异步读取文件内容
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            const errorMessage = `读取文件 ${filePath} 失败: ${err.message}`;
-            logger.error(errorMessage);
-            return res.status(500).send('无法读取文件');
-        }
-
-        try {
-            const jsonData = JSON.parse(data);
-            res.json(jsonData); // 发送 JSON 响应
-        } catch (parseErr) {
-            const errorMessage = `JSON 解析错误: ${parseErr.message}`;
-            logger.error(errorMessage);
-            res.status(500).send('JSON 格式错误');
-        }
-    });
+docsRouter.get('/json', async (req, res) => {
+    const result = await docsService.readJsonFile();
+    if (result.error) {
+        logger.error(result.error);
+        return res.status(500).send(result.error.includes('JSON') ? 'JSON 格式错误' : '无法读取文件');
+    }
+    res.json(result.data);
 });
 
 docsRouter.use((req, res) => {
