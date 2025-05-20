@@ -8,7 +8,7 @@ const path = require('path');
  * @returns {Promise<{stream: fs.ReadStream, mimeType: string}> | Error}
  */
 function getImage(imagePath) {
-    const imgPath = path.join(__dirname, '../../../../storage/images', imagePath); // 确保这里的路径指向你的图片位置
+    const imgPath = path.join(__dirname, '../../../storage/images', imagePath); // 确保这里的路径指向你的图片位置
     
     return new Promise((resolve, reject) => {
         
