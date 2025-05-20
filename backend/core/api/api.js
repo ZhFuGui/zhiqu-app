@@ -2,7 +2,7 @@ const express = require('express');
 const apiRouter = express.Router();
 const libraryRouter = require('./library/library');
 const analyzeRouter = require('./analyze/analyze');
-
+const aichatRouter = require('./aichat/aichat');
 // 记录所有请求
 apiRouter.use((req, res, next) => {
   next();
@@ -11,6 +11,7 @@ apiRouter.use((req, res, next) => {
 // 挂载 API 路由
 apiRouter.use('/library', libraryRouter);
 apiRouter.use('/analyze', analyzeRouter);
+apiRouter.use('/aichat', aichatRouter);
 
 // 404 处理
 apiRouter.use((req, res) => {
