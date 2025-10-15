@@ -1,0 +1,64 @@
+{
+  "name": "claude-code-workflows",
+  "owner": {
+    "name": "Seth Hobson",
+    "email": "seth@major7apps.com",
+    "url": "https://github.com/wshobson"
+  },
+  "metadata": {
+    "description": "Production-ready workflow orchestration with 62 focused plugins, 84 specialized agents, and 42 tools - optimized for granular installation and minimal token usage",
+    "version": "1.2.0"
+  },
+  "plugins": [
+    {
+      "name": "code-documentation",
+      "source": "./plugins/code-documentation",
+      "description": "Documentation generation, code explanation, and technical writing with automated doc generation and tutorial creation",
+      "version": "1.2.0",
+      "author": {
+        "name": "Seth Hobson",
+        "url": "https://github.com/wshobson"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "repository": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "keywords": [
+        "documentation",
+        "code-explanation",
+        "technical-writing",
+        "tutorials"
+      ],
+      "category": "documentation",
+      "strict": false,
+      "commands": ["./commands/doc-generate.md", "./commands/code-explain.md"],
+      "agents": [
+        "./agents/docs-architect.md",
+        "./agents/tutorial-engineer.md",
+        "./agents/code-reviewer.md"
+      ]
+    },
+    {
+      "name": "debugging-toolkit",
+      "source": "./plugins/debugging-toolkit",
+      "description": "Interactive debugging, developer experience optimization, and smart debugging workflows",
+      "version": "1.2.0",
+      "author": {
+        "name": "Seth Hobson",
+        "url": "https://github.com/wshobson"
+      },
+      "homepage": "https://github.com/wshobson/agents",
+      "repository": "https://github.com/wshobson/agents",
+      "license": "MIT",
+      "keywords": [
+        "debugging",
+        "developer-experience",
+        "troubleshooting",
+        "essential"
+      ],
+      "category": "development",
+      "strict": false,
+      "commands": ["./commands/smart-debug.md"],
+      "agents": ["./agents/debugger.md", "./agents/dx-optimizer.md"]
+    }
+  ]
+}
